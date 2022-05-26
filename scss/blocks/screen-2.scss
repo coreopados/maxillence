@@ -1,0 +1,124 @@
+.screen-2 {
+    padding: 82px 0 48px;
+    overflow-x: hidden;
+
+    .wrap-partners {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-right: -80px;
+
+        a {
+            max-width: 200px;
+            width: 100%;
+            margin-right: 120px;
+            // margin-bottom: 100px;
+            margin-bottom: 5.5vw;
+
+            img {
+                transition: 0.2s;
+            }
+        }
+
+        a:active {
+            top: 0;
+        }
+
+        a:hover img {
+            filter: brightness(1.1);
+            transition: 0.2s;
+        }
+
+        a:nth-of-type(1) {
+            max-width: 112px;
+        }
+
+        a:nth-of-type(2) {
+            max-width: 106px;
+        }
+
+        a:nth-of-type(3) {
+            max-width: 173px;
+        }
+
+        a:nth-of-type(4) {
+            max-width: 68px;
+        }
+
+        a:nth-of-type(5) {
+            max-width: 155px;
+            margin-right: 80px;
+        }
+
+        a:nth-of-type(6) {
+            max-width: 142px;
+            margin-right: 80px;
+        }
+
+        a:nth-of-type(7) {
+            max-width: 133px;
+            margin-right: 80px;
+        }
+
+        a:nth-of-type(8) {
+            max-width: 200px;
+            margin-right: 80px;
+        }
+
+        a:nth-of-type(9) {
+            max-width: 140px;
+            margin-right: 80px;
+        }
+
+        a:nth-of-type(10) {
+            max-width: 106px;
+            margin-right: 80px;
+        }
+
+        a:nth-of-type(11) {
+            max-width: 150px;
+            margin-right: 80px;
+
+        }
+
+        a:nth-of-type(12) {
+            max-width: 155px;
+            margin-right: 90px;
+        }
+
+        a:nth-of-type(13) {
+            max-width: 150px;
+            margin-right: 90px;
+        }
+
+        a:nth-of-type(14) {
+            max-width: 70px;
+            margin-right: 90px;
+        }
+
+        a:nth-of-type(15) {
+
+            max-width: 189px;
+            margin-right: 90px;
+        }
+
+        a:nth-of-type(16) {
+            max-width: 200px;
+            margin-right: 0;
+        }
+    }
+
+    a.more-companies {
+        font-size: 20px;
+        line-height: 40px;
+        color: #676D8C;
+        text-align: center;
+        display: block;
+        margin: -20px 0 0;
+    }
+
+    a.more-companies:active {
+        top: 0;
+    }
+}

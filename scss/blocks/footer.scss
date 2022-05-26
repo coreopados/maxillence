@@ -1,0 +1,112 @@
+footer {
+    position: relative;
+    padding-bottom: 80px;
+
+
+    .foot-wrap {
+        margin-top: 120px;
+        z-index: 1;
+        position: relative;
+        display: grid;
+        grid-template-areas: "logo documents services contacts button";
+
+        .foot-label {
+            font-weight: bold;
+            font-size: 12px;
+            line-height: 20px;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            color: #676D8C;
+            margin-bottom: 12px;
+        }
+
+        .foot-link {
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 48px;
+            color: #676D8C;
+        }
+
+        .foot-link:hover {
+            text-decoration: underline;
+        }
+
+        .document-wrap {
+            grid-area: documents;
+            padding-left: 5.8vw;
+        }
+
+        .logo-foot-wrap {
+            grid-area: logo;
+
+            .copyright {
+                font-size: 12px;
+                line-height: 48px;
+                color: #8A8FAE;
+            }
+        }
+
+
+        .contacts-wrap {
+            grid-area: contacts;
+            padding-left: 30px;
+
+            .foot-link {
+                color: #5171ED;
+            }
+
+        }
+
+        .document-wrap,
+        .contacts-wrap,
+        .service-wrap {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .service-wrap {
+            grid-area: services;
+            padding-left: 2.5vw;
+        }
+
+        .foot-button {
+            grid-area: button;
+            max-width: 230px;
+            height: 45px;
+            line-height: 45px;
+            text-align: center;
+            border: 1.5px solid #C4D0FF;
+            border-radius: 4px;
+            background: none;
+            color: #5171ED;
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 16px;
+            width: 100%;
+            margin-left: auto;
+            margin-right: 0;
+            transition: 0.3s;
+            padding-left: 10px;
+            padding-right: 10px;
+            white-space: nowrap;
+        }
+
+        .foot-button:hover {
+            border: 1.5px solid rgb(146, 168, 255);
+            transition: 0.3s;
+        }
+    }
+
+}
+
+footer:after {
+    content: '';
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    height: 750px;
+    z-index: 0;
+    background: url(../img/footer/wave.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}

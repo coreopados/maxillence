@@ -1,0 +1,93 @@
+.main-screen {
+    position: relative;
+    overflow-x: hidden;
+    min-height: 100vh;
+
+
+    .bg-main {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: -1;
+    }
+
+    .wrap-main {
+        max-width: 1600px;
+        min-height: 100vh;
+        margin: 0 auto;
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        padding-left: 4.2vw;
+        padding-right: 4.8vw;
+        padding-bottom: 3.7vw;
+   
+
+        .left-picture {
+            max-width: 412px;
+            width: 100%;
+            min-width: 100px;
+        }
+
+        .container {
+            padding: 0;
+            color: #fff;
+            text-align: center;
+            padding-top: 140px;
+            align-self: flex-start;
+            margin-left: -130px;
+            margin-right: -130px;
+
+            h1 {
+                margin: 0;
+                font-size: 70px;
+                line-height: 90px;
+                margin-bottom: 32px;
+                font-weight: 600;
+            }
+
+            .subtitle {
+                margin: 0;
+                font-size: 20px;
+                line-height: 40px;
+                max-width: 600px;
+                margin: 0 auto;
+                margin-bottom: 40px;
+                font-weight: 300;
+
+            }
+
+            .red-button {
+                width: 290px;
+                height: 60px;
+                line-height: 60px;
+                background: #FF8966;
+                border-radius: 4px;
+                text-align: center;
+                color: #fff;
+                display: inline-block;
+                font-weight: 600;
+                font-size: 20px;
+                transition: 0.3s;
+            }
+
+            .red-button:hover {
+                background: rgba(255, 137, 102, 0.9);
+                transition: 0.3s;
+            }
+        }
+
+        .right-picture {
+            max-width: 378px;
+            width: 100%;
+            min-width: 100px;
+        }
+
+        .main-mobile-arrow {
+            display: none;
+        }
+    }
+}

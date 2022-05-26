@@ -1,0 +1,146 @@
+.screen-title {
+    padding-top: 240px;
+    position: relative;
+    padding-bottom: 30px;
+
+    .right-part {
+        min-width: 50%;
+    }
+
+    ul {
+        padding: 0;
+
+        li {
+            padding-left: 40px;
+            list-style: none;
+            font-size: 20px;
+            position: relative;
+            margin-bottom: 15px;
+        }
+
+        li:before {
+            content: url(../img/checked.svg);
+            position: absolute;
+            left: 10px;
+        }
+    }
+}
+
+
+//инфо секции
+.table-subtitle-wrap {
+    display: flex;
+    position: relative;
+
+    .half-part {
+        text-align: center;
+
+        h6 {
+            font-size: 20px;
+            line-height: 40px;
+            margin: 0;
+
+        }
+
+        .table-subtitle {
+            font-size: 16px;
+            line-height: 30px;
+            color: #676D8C;
+            margin: 0;
+        }
+    }
+}
+
+.table-subtitle-wrap .left-part {
+    position: relative;
+}
+
+.table-subtitle-wrap .left-part:after {
+    content: url(../img/screen-4/arrow.svg);
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translate(50%, -50%);
+    right: 0;
+}
+
+.table-subtitle-wrap.second-table-subtitle {
+    margin-top: 50px;
+}
+
+
+
+//statistic
+.stat-table {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+
+    .stat-center {
+        padding-left: 32px;
+        border-left: 1.5px solid #E4E6F3;
+    }
+
+    .stat-label {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .stat-value {
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 44px;
+    }
+}
+
+
+//table
+.table-wrap {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 125px;
+    margin-top: 70px;
+
+    .left-part {
+        width: 50%;
+    }
+
+    .right-part {
+        right: 0;
+        width: 60%;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+
+        img {
+            box-shadow: 0px 24px 60px rgba(38, 48, 89, 0.12);
+            border-radius: 5px;
+        }
+    }
+}
+
+.table-wrap.second-table-wrap {
+    position: relative;
+    margin-bottom: 80px;
+    margin-top: 0;
+
+    .left-part {
+        width: 60%;
+        margin-right: 0px;
+        margin-top: 120px;
+    }
+
+    .right-part {
+        right: 0;
+        top: 40px;
+        position: absolute;
+        width: 60%;
+        transform: unset;
+
+        img {
+            left: 0;
+        }
+    }
+}

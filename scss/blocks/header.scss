@@ -1,0 +1,119 @@
+header {
+    position: fixed;
+    padding: 25px 32px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 5;
+    width: 100%;
+    transition: 0.2s;
+    background: #5171ED;
+    // max-width: 1400px;
+
+    a {
+        margin-right: 40px;
+        color: #fff;
+        font-weight: 600;
+        font-size: 16px;
+        // line-height: 30px;
+        line-height: 44px;
+    }
+
+    .left-part {
+
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .logo {
+            display: inline-block;
+            max-width: 130px;
+
+            svg {
+                position: relative;
+                top: 3px;
+            }
+        }
+    }
+
+    .right-part {
+
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+
+        a:nth-of-type(2):hover {
+            text-decoration: underline;
+        }
+
+        .linked {
+            height: 32px;
+            width: 32px;
+            text-align: center;
+            border-radius: 50%;
+            line-height: 30px;
+            border: 1.5px solid rgba(255, 255, 255, 0.32);
+            transition: 0.3s;
+
+            img {
+                max-width: 15px;
+            }
+        }
+
+        .linked:hover {
+            border: 1.5px solid rgba(255, 255, 255, 1);
+            transition: 0.3s;
+        }
+
+        .contact-us {
+            height: 44px;
+            line-height: 40px;
+            width: 156px;
+            margin-right: 0;
+            text-align: center;
+            border: 1.5px solid rgba(255, 255, 255, 0.32);
+            transition: 0.3s;
+            border-radius: 4px;
+        }
+
+        .contact-us:hover {
+            border: 1.5px solid rgba(255, 255, 255, 1);
+            transition: 0.3s;
+        }
+    }
+}
+
+header.white {
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(38, 48, 89, 0.08);
+    transition: 0.2s;
+    padding: 10px 32px;
+
+    a {
+        color: #676D8C;
+    }
+
+    .linked,
+    .logo {
+        svg path {
+            fill: #5171ED;
+        }
+    }
+
+    .contact-us {
+        border-color: #C4D0FF;
+        color: #5171ED;
+    }
+
+    .contact-us:hover {
+        border-color: #C4D0FF;
+    }
+
+    .linked {
+        border-color: #CFD2E1;
+    }
+
+    .linked:hover {
+        border-color: #CFD2E1;
+    }
+}
